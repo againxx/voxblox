@@ -171,4 +171,5 @@ install(TARGETS ${PROJECT_NAME}_proto
 )
 cs_install()
 cs_export(INCLUDE_DIRS include ${CMAKE_CURRENT_BINARY_DIR}
+          LIBRARIES ${PROTO_LIBRARIES}
           CFG_EXTRAS voxblox-extras.cmake)
